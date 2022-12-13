@@ -1,0 +1,7 @@
+{
+    "app":{
+        "mode":"light",
+        "lightColor":"#ff7f50",
+        "darkColor":"#4b4b4b"
+    }
+}

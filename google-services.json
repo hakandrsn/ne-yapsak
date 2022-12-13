@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258572616910",
+    "project_id": "ne-yapsak-6c021",
+    "storage_bucket": "ne-yapsak-6c021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258572616910:android:1b61748fe3ea42e8493c9f",
+        "android_client_info": {
+          "package_name": "com.neyapsak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258572616910-6gkfc4h8h6mnn16ma15sq2r235knltcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlznaJXby1xTsrwyUXN4YzDWsyIjLxR80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258572616910-6gkfc4h8h6mnn16ma15sq2r235knltcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

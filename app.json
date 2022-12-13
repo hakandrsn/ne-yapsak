@@ -18,16 +18,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.neyapsak"
     },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26f7353f-f2d3-47b0-bf2a-78958f776c34"
+      }
     }
   }
 }
