@@ -1,4 +1,5 @@
 export const mainfood = {
+    id:0,
     type:"mainfood",
     name:"Kuru Fasulye",
     level:2,

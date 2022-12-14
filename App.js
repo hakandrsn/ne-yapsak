@@ -2,6 +2,9 @@ import 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import SrcApp from "./src/App"
 import { useFonts } from "expo-font"
+import { Provider } from "react-redux"
+import { store } from './src/redux/store';
+import 'expo-dev-client';
 
 const App = () => {
   const [fontsLoad] = useFonts({
@@ -15,9 +18,11 @@ const App = () => {
   })
   if (!fontsLoad) return null;
   return (
-    <SafeAreaProvider>
-      <SrcApp />
-    </SafeAreaProvider>
+    <Provider store={store}>
+      <SafeAreaProvider>
+        <SrcApp />
+      </SafeAreaProvider>
+    </Provider>
   )
 }
 export default App
